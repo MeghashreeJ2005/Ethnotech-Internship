@@ -1,0 +1,33 @@
+1
+x=5
+print(x<5 and x<10)
+print(x<5 or x<10)
+print(not(x<5 and x<10))
+print(12 and 13)
+print(12 and 0)
+print(12 or 13)
+
+
+2print(10+20)
+print(30-2)
+print(23*3)
+print(40/3)
+print(45//4)
+print(45%8)
+c=(10**2)
+print("c",c)
+print("the value of c is {}".format(c))
+print(f"thye value of c is {c}")
+print("%d" % c)
+#comparesion
+print(10==10)
+print(10!=5)
+print(10>11)
+print(10>=10)
+print(10<=2)
+#logical
+x=5
+print(x<5 and x<10)
+print(x<5 or x<10)
+print(not(x<5 and x<10))
+
