@@ -1,0 +1,29 @@
+1
+def chess_board():
+    for row in range(8):
+        for col in range(8):
+            if (row + col) % 2 == 0:
+                print("W", end=" ")
+            else:
+                print("B", end=" ")
+        print()
+
+chess_board()
+
+2
+def calculate_food_bill(food_name, price, quantity, gst_percent):
+    subtotal = price * quantity
+    gst_amount = (subtotal * gst_percent) / 100
+    total_bill = subtotal + gst_amount
+
+    print("------ FOOD BILL ------")
+    print("Food Item:", food_name)
+    print("Price per item:", price)
+    print("Quantity:", quantity)
+    print("Subtotal:", subtotal)
+    print("GST (", gst_percent, "% ):", gst_amount)
+    print("Total Bill:", total_bill)
+
+    return total_bill
+
+calculate_food_bill("Pizza", 200, 3, 5)
