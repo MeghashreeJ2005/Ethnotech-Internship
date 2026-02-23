@@ -1,0 +1,25 @@
+1.
+str="Hello Good Morning have a nice day"
+print(str.replace('good','great'))
+print(str.split())
+print(str.find('Good'))
+print(len(str))
+X='ghhgch'
+print(X.isalpha())
+
+2.
+
+fruits=['apple','banana','orange']
+print(fruits)
+fruits.insert(1,'starwbery')
+print(fruits)
+fruits.remove('banana')
+print(fruits)
+fruits.append(['kiwi','mango'])
+print(fruits)
+print(len(fruits))
+fruits.pop()
+print(fruits)
+fruits.clear()
+print(fruits)
+
